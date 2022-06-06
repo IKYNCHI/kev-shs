@@ -24,7 +24,7 @@ const Viewdevices = () => {
             </Link>
         </div>
         <ul className='nav-items'>
-        <li className='nav-item'><a href='https://dakboard.com/app/screenPredefined?p=a911d765329754a6321b3257a37e1583'>Dashboard</a></li>
+        <li className='nav-item'><a href='https://dakboard.com/app/screenPredefined?p=a911d765329754a6321b3257a37e1583' target='_blank'>Dashboard</a></li>
         <li className='nav-item'><Link to='/viewdevices'>View Devices</Link></li>
         <li className='nav-item'><Link to='/'>Logout</Link></li>
         </ul>
