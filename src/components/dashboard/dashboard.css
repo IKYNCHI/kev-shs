@@ -1,0 +1,6 @@
+.body{
+    background-image: url('../image/backgrounddashboard.jpg');
+    height: 900px;
+    background-size:  1480px 900px;
+    object-fit: contain;
+}

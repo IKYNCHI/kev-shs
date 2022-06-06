@@ -1,0 +1,45 @@
+.bodydevices{
+    height: 900px;
+    background-color: #bae8e8;
+}
+.wholedevice{
+    margin-top: 60px;
+}
+.devices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    position: relative;
+}
+.device{
+    background-color: #e3f6f5;
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.buttons{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.buttons.clicked{
+    background-color: green;
+}
+h4{
+    margin-left: 150px;
+    margin-bottom: -30px;
+}
