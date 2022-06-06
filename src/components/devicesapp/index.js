@@ -9,6 +9,15 @@ import { CgSmartHomeRefrigerator } from "react-icons/cg";
 import { MdOutlineMicrowave } from "react-icons/md";
 import { GiHomeGarage } from "react-icons/gi";
 const Viewdevices = () => {
+  const green = "green";
+  const white = "white";
+  const [buttonColor, setButtonColor] = useState(white);
+
+
+  function handleColorChange(e) {
+    const newColor = buttonColor === white ? green : white;
+    setButtonColor(newColor);
+  }
   return (
     <div className='bodydevices'>
         <nav className='navbar'>
@@ -34,11 +43,13 @@ const Viewdevices = () => {
     <div className='devices'>
       <div className='device'>Living Room Light
       <FaRegLightbulb/>
-      <button className='buttons'>
+      <button className='buttons' onClick={() => {handleColorChange()}}
+      style={{ backgroundColor: buttonColor }}
+      color={buttonColor}>
         Turn ON/OFF
         </button>
         </div>
-        
+{/*         
       <div className='device'>Electric Fan LR
       <FaFan/>
       <button className='buttons'>
@@ -108,7 +119,7 @@ const Viewdevices = () => {
       <button className='buttons'>
         Turn ON/OFF
         </button>
-        </div>
+        </div> */}
     </div>
     </div>
     </div>
