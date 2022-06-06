@@ -1,6 +1,6 @@
 .navbardashboard {
     height: 10vh;
-    background-color: rgba(244, 244, 244, 0);
+    background-color: #33415C;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -10,8 +10,6 @@
 .logodashboard{
     color: white;
     text-decoration: none;
-    margin-top: 30px;
-    margin-left: 200px
 }
 .logokev{
     justify-content: center;
